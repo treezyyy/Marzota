@@ -1,6 +1,8 @@
 package com.example.marzota.;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.LinearLayout;
@@ -9,37 +11,38 @@ public class Result extends AppCompatActivity {
 
     LinearLayout LinearLayout;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        LinearLayout = findViewById(R.id.text_view);
+        LinearLayout = findViewById(R.id.ln);
         Intent intent = getIntent();
         String cartoon = intent.getStringExtra("marzota");
 
         if (cartoon.equals("Marklum")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("G2N")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("керыч")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("flipside")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("l3koyn")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("demit")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("buyan")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("maloyi")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("Mcпох")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("kirya")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         } else if (cartoon.equals("fontazer")) {
-            LinearLayout.setText();
+            LinearLayout.setBackground();
         }
     }
 }
