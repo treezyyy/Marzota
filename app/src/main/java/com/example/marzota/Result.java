@@ -4,16 +4,26 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.res.ResourcesCompat;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TextView;
 import java.net.URI;
 
 public class Result extends AppCompatActivity {
 
-    ImageView ImageView;
+    private Integer picture = R.drawable.fon;
+
+    TextView textView;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,33 +31,18 @@ public class Result extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        ImageView imageView= findViewById(R.id.marzota);
+
+
+        LinearLayout pictureView = (LinearLayout) findViewById(R.id.fonfurino);
+
+
         Intent intent = getIntent();
         String marzota = intent.getStringExtra("marzota");
 
         if (marzota.equals("buyan")) {
-               ImageView.setImageURI(URI.parse());
-        //    } else if (cartoon.equals("G2N")) {
-        //          LinearLayout.setBackground();
-        //       } else if (cartoon.equals("керыч")) {
-        //           LinearLayout.setBackground();
-        //            LinearLayout.setBackground();
-        //    } else if (cartoon.equals("flipside")) {
-        //        LinearLayout.setBackground();
-        //   } else if (cartoon.equals("l3koyn")) {
-        //        LinearLayout.setBackground();
-        //     } else if (cartoon.equals("demit")) {
-        //         LinearLayout.setBackground();
-        //       } else if (cartoon.equals("buyan")) {
-        //        LinearLayout.setBackground();
-        //   } else if (cartoon.equals("maloyi")) {
-        //         LinearLayout.setBackground();
-        //  } else if (cartoon.equals("Mcпох")) {
-        //       LinearLayout.setBackground();
-        //   } else if (cartoon.equals("kirya")) {
-        //       LinearLayout.setBackground();
-        //   } else if (cartoon.equals("fontazer")) {
-        //      LinearLayout.setBackground();
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+
         }
     }
 }
