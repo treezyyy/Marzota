@@ -1,4 +1,4 @@
-package com.example.marzota.;
+package com.example.marzota;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
-    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "l3koyn", "demit", "buyan", "maloyi","Mcпох","kirya","fontazer"};
+    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "l3koyn","tae tae", "demit", "buyan", "maloyi","Mcпох","kirya","fontazer"};
 
 
     @Override
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, Result.class);
-                intent.putExtra("cartoon", marzota[position]);
+                intent.putExtra("marzota", marzota[position]);
                 startActivity(intent);
             }
         });
