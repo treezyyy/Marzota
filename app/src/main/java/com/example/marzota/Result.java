@@ -42,6 +42,37 @@ public class Result extends AppCompatActivity {
         if (marzota.equals("buyan")) {
             picture = R.drawable.buyan;
             pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("G2N")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("керыч")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("flipside")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("l3koyn")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("tae tae")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("demit")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("Marklum")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("maloyi")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("Mcпох")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("kirya")) {
+            picture = R.drawable.buyan;
+            pictureView.setBackgroundResource(picture);
+        } else if (marzota.equals("fontazer")) {
 
         }
     }
