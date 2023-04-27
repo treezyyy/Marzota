@@ -10,8 +10,6 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView listView;
-    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "l3koyn","tae tae", "demit", "buyan", "maloyi","Mcпох","kirya","fontazer"};
 
 
     @Override
