@@ -21,7 +21,6 @@ import java.net.URI;
 
 public class Result extends AppCompatActivity {
 
-    private Integer picture = R.drawable.fon;
 
     TextView textView;
 
@@ -30,50 +29,5 @@ public class Result extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
-
-
-
-        LinearLayout pictureView = (LinearLayout) findViewById(R.id.fonfurino);
-
-
-        Intent intent = getIntent();
-        String marzota = intent.getStringExtra("marzota");
-
-        if (marzota.equals("buyan")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("G2N")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("керыч")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("flipside")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("l3koyn")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("tae tae")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("demit")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("Marklum")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("maloyi")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("Mcпох")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("kirya")) {
-            picture = R.drawable.buyan;
-            pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("fontazer")) {
-
-        }
     }
 }
