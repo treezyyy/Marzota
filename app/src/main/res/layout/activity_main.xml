@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ln"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
-    android:id="@+id/ln"
-    tools:context=".MainActivity"
-    android:orientation="vertical"/>
+    android:background="@drawable/mainactfon"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/button_login"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_image" />
+
+    <ImageView
+        android:id="@+id/button_login1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_image1" />
+
+    <ImageView
+        android:id="@+id/button_login2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_image2" />
+
+    <ImageView
+        android:id="@+id/button_login3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_image3" />
+
+</LinearLayout>
+
+
+
+
+
