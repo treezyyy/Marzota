@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         login2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                //TODO: your code here
+                startActivity(new Intent(MainActivity.this, Result.class));
             }
         });
 
