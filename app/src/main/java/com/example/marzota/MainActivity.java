@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MediaPlayer music = MediaPlayer.create(MainActivity.this, R.raw.music);
-        music.start();
+        //MediaPlayer music = MediaPlayer.create(MainActivity.this, R.raw.music);
+        //music.start();
         ImageView login;
         login = (ImageView) findViewById(R.id.button_login);
         login.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         login1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                //TODO: your code here
+                startActivity(new Intent(MainActivity.this, links.class));
             }
         });
 
@@ -57,11 +57,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
-
-
-
 
 
 }
