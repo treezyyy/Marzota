@@ -12,7 +12,7 @@ import android.widget.ListView;
 
 public class mates extends AppCompatActivity {
     ListView listView;
-    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "l3koyn", "tae tae", "demit", "buyan", "maloyi", "Mcпох", "kirya", "fontazer"};
+    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "sazuka", "maloy", "demit", "buyan", "maloyi", "Mcпох", "kirya","sp1rixx","x1neks","ДEVИД","bush", "Fontazer"};
 
 
     @SuppressLint("MissingInflatedId")
