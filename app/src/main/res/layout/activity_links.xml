@@ -7,4 +7,10 @@
     android:background="@drawable/lins"
     tools:context=".links">
 
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

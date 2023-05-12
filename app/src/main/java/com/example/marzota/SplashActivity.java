@@ -11,7 +11,7 @@ import android.window.SplashScreen;
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
 
-    private final int SPLASH_DISPLAY_LENGHT = 2000;
+    private final int SPLASH_DISPLAY_LENGHT = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

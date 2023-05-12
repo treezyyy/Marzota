@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         login3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                //TODO: your code here
+                startActivity(new Intent(MainActivity.this, mates.class));
             }
         });
 
