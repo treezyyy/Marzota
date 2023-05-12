@@ -12,6 +12,10 @@
         android:theme="@style/Theme.Marzota"
         tools:targetApi="31">
         <activity
+            android:name=".Shopper"
+            android:label="Shop" >
+        </activity>
+        <activity
             android:name=".links"
             android:exported="false" />
         <activity
@@ -28,6 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="Marzota"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

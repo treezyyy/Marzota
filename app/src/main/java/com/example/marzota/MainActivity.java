@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                //TODO: your code here
+                startActivity(new Intent(MainActivity.this, Shopper.class));
             }
         });
 
