@@ -5,19 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Result"
-    android:background="@color/backColor"
+    android:background="@drawable/lol"
     android:gravity="center"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="@dimen/material_emphasis_medium"
+        android:text="Marzota Shop"
+        android:textColor="#9057C2"
+        android:fontFamily="@font/rt"
+        android:textSize="40dp" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:layout_height="match_parent">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -60,40 +78,201 @@
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="300dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="40dp"
                 android:gravity="center"
                 android:layout_height="200dp"
                 android:layout_marginStart="60dp"
                 app:srcCompat="@drawable/marrrr" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="@string/marzota_t_shirt"
+                android:textColor="#9057C2"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="1dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="2000 $"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
 
 
 
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="300dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="40dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="60dp"
                 android:gravity="center"
                 app:srcCompat="@drawable/krugig" />
 
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="Сup"
+                android:textColor="#9057C2"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="1dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="300 $"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
             <ImageButton
                 android:id="@+id/imageButton5"
                 android:layout_width="300dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="40dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="60dp"
                 android:gravity="center"
                 app:srcCompat="@drawable/cap" />
 
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="Сap"
+                android:textColor="#9057C2"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="1dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="700 $"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="300dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="40dp"
                 android:layout_height="200dp"
                 android:gravity="center"
                 android:layout_marginStart="60dp"
                 app:srcCompat="@drawable/ererer" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="Marzota Energy"
+                android:textColor="#9057C2"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="1dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="100 $"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="300dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginStart="60dp"
+                app:srcCompat="@drawable/rerere" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="Marzota pendant"
+                android:textColor="#9057C2"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView7123"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="1dp"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="@dimen/material_emphasis_medium"
+                android:text="6000 $"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/rt"
+                android:textSize="25dp" />
 
 
         </LinearLayout>
