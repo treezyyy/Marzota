@@ -9,11 +9,19 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
 
 public class mates extends AppCompatActivity {
-    ListView listView;
-    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "sazuka", "maloy", "demit", "buyan", "maloyi", "Mcпох", "kirya","sp1rixx","x1neks","ДEVИД","bush", "Fontazer"};
 
+    ListView listView;
+    String[] marzota = {"Marklum", "G2N", "керыч", "flipside", "sazuka", "demit", "buyan", "maloy", "Мспох", "kirya","sp1rixx","X1NEKS","ДEVИД","BUSH", "Fontazer"};
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -28,6 +36,7 @@ public class mates extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(mates.this, uchast.class);
+                intent.putExtra("marzota", marzota[position]);
                 startActivity(intent);
             }
         });
