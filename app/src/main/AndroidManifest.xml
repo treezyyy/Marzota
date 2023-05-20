@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/log"
+        android:icon="@drawable/photo1683748918"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Marzota"
@@ -16,12 +16,14 @@
             android:exported="false" />
         <activity
             android:name=".mates"
+            android:label="Mates"
             android:exported="false" />
         <activity
             android:name=".Shopper"
             android:label="Shop" />
         <activity
             android:name=".links"
+            android:label="Links"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

@@ -72,7 +72,7 @@ public class uchast extends AppCompatActivity {
         } else if (marzota.equals("X1NEKS")) {
             picture = R.drawable.xineks;
             pictureView.setBackgroundResource(picture);
-        } else if (marzota.equals("ДEVИД")) {
+        } else if (marzota.equals("ДЭVИД")) {
             picture = R.drawable.dev;
             pictureView.setBackgroundResource(picture);
         } else if (marzota.equals("BUSH")) {
