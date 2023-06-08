@@ -28,9 +28,9 @@ public class uchast extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_mates);
 
-        LinearLayout pictureView = (LinearLayout) findViewById(R.id.fonfurino);
+        LinearLayout pictureView = (LinearLayout) findViewById(R.id.shoper);
 
 
         Intent intent = getIntent();
